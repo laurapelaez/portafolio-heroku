@@ -19,7 +19,7 @@ gulp.task('style', function(){
 });
 
 gulp.task('webserver', function(){
-	gulp.src('../resume/')
+	gulp.src('../portafolio-heroku/')
 	.pipe(webserver({
 		fallback: 'index.html',
 		livereload: true,
