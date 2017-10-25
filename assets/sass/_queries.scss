@@ -1,0 +1,261 @@
+@media only screen and (max-width: 992px) {
+  .side-menu {
+    right: 19px;
+  }
+
+  .text-result {
+    font-size: 11px;
+  }
+
+  .typewriter {
+    font-size: 18px;
+    padding-left: 32px;
+    margin-top: 35px;
+  }
+
+  h4 {
+    font-size: 17px;
+    text-align: justify;
+  }
+
+  .text-console {
+    color: #f0f0f0;
+    font-size: 13px;
+  }
+
+  .profile {
+    width: 20%;
+  }
+
+  .medium {
+    margin-left: 0;
+  }
+
+  ul li a {
+    font-size: 12px;
+  }
+
+  .titles {
+    font-size: 21px;
+  }
+
+  .container-text-console {
+    margin: 10px 40px;
+    line-height: 20px;
+    font-size: 23px;
+  }
+
+  .shadow-console {
+    padding: 9px 0;
+    height: 460px;
+  }
+
+  .right-console {
+    margin-left: 3%;
+    font-size: 12px;
+  }
+
+  .right-console-home {
+    margin-left: 14px;
+  }
+
+  .greetings {
+    font-size: .75em;
+    //height: 179vh;
+
+    .text {
+      margin: 0 auto 40px;
+      overflow: hidden;
+    }
+
+    .and {
+      margin-left: .3em;
+      margin-right: -10px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .greetings figure {
+    position: static;
+    text-align: center;
+  }
+
+  .base {
+    width: auto;
+  }
+
+  .country,
+  .lastname,
+  .front,
+  .text-name {
+    font-size: 51px;
+  }
+
+  #about {
+    font-size: 2.222rem;
+  }
+}
+
+@media all and (max-width: 390px) {
+  .greetings {
+    font-size: .65em;
+   
+  }
+}
+
+@media all and (max-width: 360px) {
+  .greetings {
+    font-size: .6em;
+   
+  }
+}
+
+@media all and (max-width: 340px) {
+  .greetings {
+    font-size: .55em;
+    
+  }
+}
+
+//console
+@media only screen and (min-width: 576px) {
+  .link-box > div {
+    flex-basis: 53%;
+  }
+}
+
+.flex-middle-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 69.9px;
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+}
+
+.flex-middle-box > svg {
+  color: #f0f0f0;
+}
+
+@media only screen and (max-width: 576px) {
+  .flex-middle-box {
+    display: none;
+  }
+}
+
+.flex-middle-box-text {
+  padding: 29px 14px;
+  flex-basis: 100%;
+  font-size: 18px;
+  color: #f0f0f0;
+  background-color: rgba(0, 0, 0, .6);
+  overflow: hidden;
+  border-radius: 0 4px 4px 0;
+}
+
+.flex-middle-box-text p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: white;
+}
+
+@media only screen and (max-width: 576px) {
+  .flex-middle-box-text {
+    border-radius: 4px;
+    padding: 20px 14px;
+  }
+
+  .link-box-style .material-icons {
+    font-size: 29px;
+  }
+}
+
+.flex-middle-box-text-title {
+  margin-bottom: 10px;
+  font-size: .777rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #c4cad0;
+  background-color: transparent;
+}
+
+.link-box-style {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 51px;
+  width: 51px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  box-shadow: 0 1px 2px 0 rgba(31, 45, 61, .15);
+
+  .material-icons {
+    text-rendering: optimizeLegibility;
+    -webkit-font-feature-settings: 'liga';
+    -moz-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    margin-top: 9px;
+    font-size: 36px;
+    color: $dark-blue;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .link-box-style {
+    left: 10px;
+    right: 20px;
+    font-size: 12px;
+    width: 41px;
+    height: 41px;
+  }
+
+  .link-box-style .material-icons {
+    font-size: 29px;
+  }
+
+  .flex-middle-box-text {
+    border-radius: 4px;
+    padding: 0px 9px;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+.flex-middle-box-text p {
+  margin-top: 0;
+  background-color: transparent;
+}
+
+.transparent {
+  background-color: transparent;
+}
+/*Portfolio*/
+
+.techniques {
+  display: inline-flex;
+  background-color: transparent;
+
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: white;
+    background-color: transparent;
+    padding-left: 10px;
+  }
+}
+/*Animation*/
+@keyframes _23jOr {
+  50% {
+    background-color: transparent;
+  }
+}

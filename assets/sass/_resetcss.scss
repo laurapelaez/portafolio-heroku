@@ -1,0 +1,303 @@
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent
+}
+a {
+    outline: 0;
+    text-decoration: none
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+figcaption,
+figure,
+main {
+    display: block
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+a:active,
+a:hover {
+    outline-width: 0
+}
+
+b,
+strong {
+    font-weight: inherit;
+    font-weight: bolder
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+dfn {
+    font-style: italic
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+audio,
+video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0
+}
+
+a,
+button {
+    cursor: pointer
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+[type=reset],
+[type=submit],
+button,
+html [type=button] {
+    -webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+progress {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],
+[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+details,
+menu {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+canvas {
+    display: inline-block
+}
+
+[hidden],
+template {
+    display: none
+}
+
+label {
+    display: block;
+    margin-bottom: 10px
+}
+
+input,
+select,
+textarea {
+    display: block;
+    padding: 4px;
+    border: 1px solid #878c8f;
+    border-radius: 4px
+}
+
+fieldset {
+    margin: 20px 0
+}
+
+body,
+html {
+    font-size: 18px
+}
+
+
+
+p {
+    line-height: 1.6em
+}
+
+a {
+    color: white
+}
+
+a:active,
+a:focus,
+a:hover {
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 300;
+	color: #525f7f;
+	font-size: 25px;
+}
+
+strong {
+    font-weight: 700
+}
+
+small {
+    font-size: .888rem
+}
+@font-face {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 600;
+    src: url(/c52cb5fdc6b3db1823a3c6da0c1228a16af183f3/bd37c/hm1fcrk.woff2) format("woff2"), url(/e4f3db72f54ae3c4658d159fed459b22e4d2a3e9/937ee/2rvrc3w.woff) format("woff")
+}
+
+@font-face {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    src: url(/f9502df31229fdf97c531615eddfd7bdfe1caffe/d6ad8/1u0ihob.woff2) format("woff2"), url(/c6b6de30a45e5711ed9e48d3f0e968825090910d/d9a82/capfljy.woff) format("woff")
+}
+
+@font-face {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    src: url(/d38d0755b1107b905a70d7c88383f65f6dfc939b/4eb45/2boe8ds.woff2) format("woff2"), url(/8524299d76874df936e69187d833634342929965/ce2d3/35t6eug.woff) format("woff")
+}
+
+@font-face {
+    font-family: monaco;
+    font-style: normal;
+    font-weight: 700;
+    src: local("monaco") url(/8a790d3fdad72dbbf48f3f77036932628eccc648/6649e/1j0da71.woff2) format("woff2"), url(/cf67da4ac20e2f98e557f46ab391936395f0826c/68d2b/xvxn8qa.woff) format("woff")
+}
